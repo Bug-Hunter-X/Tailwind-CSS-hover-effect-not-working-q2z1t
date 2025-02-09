@@ -1,0 +1,11 @@
+The issue was resolved by ensuring the parent element of the targeted element didn't have any conflicting styles or `pointer-events` set to `none`.  Here's the corrected code:
+
+```html
+<div>
+  <div class="bg-red-500 hover:bg-blue-700">
+    Hover over me!
+  </div>
+</div>
+```
+
+The addition of a parent div resolved the issue.
