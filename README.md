@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with Tailwind CSS where hover effects are not applied correctly.  The `bug.html` file shows the problem, while `solution.html` provides a fix.
